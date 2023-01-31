@@ -1,0 +1,45 @@
+{
+    "name": "tomatophp/tomato-components",
+    "type": "library",
+    "description": "Tons of components for splade and tomato php",
+    "keywords": [
+        "Splade",
+        "Breeze",
+        "inertiajs",
+        "vuejs",
+        "blade",
+        "php8",
+        "laravel",
+        "components",
+        "vue"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\TomatoComponents\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\TomatoComponents\\TomatoComponentsServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "tomatophp/tomato-admin": "^1.0",
+        "tomatophp/console-helpers": "^1.0"
+    }
+}
