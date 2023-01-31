@@ -1,6 +1,6 @@
 ![Screenshot](https://github.com/tomatophp/tomato-components/blob/master/art/screenshot.png)
 
-    # Tomato Components
+# Tomato Components
 
 🍅 Tons of components for [splade](https://splade.dev/) and [TomatoPHP](https://docs.tomatophp.com/) 
 
