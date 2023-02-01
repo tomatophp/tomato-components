@@ -16,7 +16,7 @@ import TomatoColor from "../../vendor/tomatophp/tomato-components/resources/js/c
 import TomatoRich from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoRich.vue";
 import TomatoTel from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoTel.vue";
 import TomatoSelect from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoSelect.vue";
-import TomatoArtisan from "../../vendor/tomatophp/tomato-components/resources/js/components/Commands/App.vue";
+import TomatoArtisan from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoArtisan.vue";
 import TomatoCode from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoCode.vue";
 
 const Tomato = {
