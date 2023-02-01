@@ -10,14 +10,14 @@ const el = document.getElementById("app");
 import helpers from "./helpers";
 import "./choices.scss";
 
-import TomatoRoles from "../../vendor/queents/tomato-components/resources/js/components/TomatoRoles.vue";
-import TomatoRepeater from "../../vendor/queents/tomato-components/resources/js/components/TomatoRepeater.vue";
-import TomatoColor from "../../vendor/queents/tomato-components/resources/js/components/TomatoColor.vue";
-import TomatoRich from "../../vendor/queents/tomato-components/resources/js/components/TomatoRich.vue";
-import TomatoTel from "../../vendor/queents/tomato-components/resources/js/components/TomatoTel.vue";
-import TomatoSelect from "../../vendor/queents/tomato-components/resources/js/components/TomatoSelect.vue";
-import TomatoArtisan from "../../vendor/queents/tomato-components/resources/js/components/Commands/App.vue";
-import TomatoCode from "../../vendor/queents/tomato-components/resources/js/components/TomatoCode.vue";
+import TomatoRoles from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoRoles.vue";
+import TomatoRepeater from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoRepeater.vue";
+import TomatoColor from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoColor.vue";
+import TomatoRich from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoRich.vue";
+import TomatoTel from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoTel.vue";
+import TomatoSelect from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoSelect.vue";
+import TomatoArtisan from "../../vendor/tomatophp/tomato-components/resources/js/components/Commands/App.vue";
+import TomatoCode from "../../vendor/tomatophp/tomato-components/resources/js/components/TomatoCode.vue";
 
 const Tomato = {
     install(app, options) {
