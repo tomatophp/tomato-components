@@ -6,14 +6,14 @@ const colors = require("tailwindcss/colors");
 module.exports = {
     content: [
         "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
-        "./vendor/queents/tomato-splade/lib/**/*.vue",
-        "./vendor/queents/tomato-splade/resources/views/**/*.blade.php",
-        "./vendor/queents/tomato-breeze/resources/views/**/*.blade.php",
-        "./vendor/queents/tomato-admin/resources/views/**/*.blade.php",
+        "./vendor/tomatophp/tomato-splade/lib/**/*.vue",
+        "./vendor/tomatophp/tomato-splade/resources/views/**/*.blade.php",
+        "./vendor/tomatophp/tomato-breeze/resources/views/**/*.blade.php",
+        "./vendor/tomatophp/tomato-admin/resources/views/**/*.blade.php",
         "./storage/framework/views/*.php",
         "./resources/views/**/*.blade.php",
         "./resources/js/**/*.vue",
-        "./vendor/queents/tomato-components/resources/js/components/**/**/*.vue",
+        "./vendor/tomatophp/tomato-components/resources/js/components/**/**/*.vue",
     ],
 
     darkMode: "class", // or 'media' or 'class'
