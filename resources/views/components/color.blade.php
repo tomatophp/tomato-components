@@ -12,15 +12,7 @@
                     {!! $prepend !!}
                 </span>
             @endif
-
-            <input type="hidden" {{ $attributes->except(['v-if', 'v-show', 'class'])->merge([
-                'name' => $name,
-                'type' => $type,
-                'v-model' => $vueModel(),
-                'data-validation-key' => $validationKey(),
-            ]) }}
-            />
-
+            
             @if($append)
                 <span :class="{ 'opacity-50': inputScope.disabled && @json(!$alwaysEnableAppend) }" class="inline-flex items-center px-3 rounded-r-md border border-t-0 border-b-0 border-r-0 border-gray-300 bg-gray-50 text-gray-500 dark:text-white">
                     {!! $append !!}
