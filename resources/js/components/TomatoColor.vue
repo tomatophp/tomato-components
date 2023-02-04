@@ -1,12 +1,13 @@
 <template>
     <div ref="input">
-        <slot/>
+        <slot name="prepend"/>
         <VSwatches
             v-model="value"
             show-fallback
             fallback-input-type="color"
             popover-x="left"
         />
+        <slot name="append"/>
     </div>
 </template>
 <script>
