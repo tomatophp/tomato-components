@@ -43,7 +43,7 @@ class TomatoComponentsInstall extends Command
         $this->handelFile('/tailwind.config.js', base_path('tailwind.config.js'));
         $this->handelFile('/choices.scss', resource_path('/js/choices.scss'));
         $this->callSilent('optimize:clear');
-        $this->yarnCommand(['add', 'vue3-editor','codemirror-editor-vue3', 'vue3-tel-input', ' vue3-swatches', 'vue3-swatches', 'vue-draggable-next','@suadelabs/vue3-multiselect']);
+        $this->yarnCommand(['add', 'vue3-editor','codemirror-editor-vue3', 'vue3-tel-input', ' vue3-swatches', 'vue-draggable-next','@suadelabs/vue3-multiselect']);
         $this->yarnCommand(['install']);
         $this->yarnCommand(['build']);
         $this->info('🍅 Tomato Components installed successfully.');
