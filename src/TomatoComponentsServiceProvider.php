@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use TomatoPHP\TomatoComponents\Console\TomatoComponentsInstall;
 use TomatoPHP\TomatoComponents\Views\Code;
 use TomatoPHP\TomatoComponents\Views\Color;
+use TomatoPHP\TomatoComponents\Views\Draggable;
 use TomatoPHP\TomatoComponents\Views\Repeater;
 use TomatoPHP\TomatoComponents\Views\Rich;
 use TomatoPHP\TomatoComponents\Views\Select;
@@ -27,7 +28,8 @@ class TomatoComponentsServiceProvider extends ServiceProvider
             Rich::class,
             Tel::class,
             Select::class,
-            Code::class
+            Code::class,
+            Draggable::class
         ]);
 
         //Register View
